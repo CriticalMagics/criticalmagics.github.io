@@ -24,30 +24,30 @@ SOFTWARE.
 */
 
 .pl-c /* comment */ {
-  color: #969896;
+  color: red;
 }
 
 .pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
 .pl-s .pl-v /* string variable */ {
-  color: #0099cd;
+  color: orange;
 }
 
 .pl-e  /* entity */,
 .pl-en /* entity.name */ {
-  color: #9774cb;
+  color: yellow;
 }
 
 .pl-s .pl-s1 /* string source */,
 .pl-smi      /* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */ {
-  color: #ddd;
+  color: green;
 }
 
 .pl-ent /* entity.name.tag */ {
-  color: #7bcc72;
+  color: blue;
 }
 
 .pl-k /* keyword, storage, storage.type */ {
-  color: #cc2372;
+  color: purple;
 }
 
 .pl-pds              /* punctuation.definition.string, string.regexp.character-class */,
@@ -57,11 +57,11 @@ SOFTWARE.
 .pl-sr .pl-cce       /* string.regexp constant.character.escape */,
 .pl-sr .pl-sra       /* string.regexp string.regexp.arbitrary-repitition */,
 .pl-sr .pl-sre       /* string.regexp source.ruby.embedded */ {
-  color: #3c66e2;
+  color: white;
 }
 
 .pl-v /* variable */ {
-  color: #fb8764;
+  color: #33ff8c;
 }
 
 .pl-id /* invalid.deprecated */ {
